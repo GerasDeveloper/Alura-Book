@@ -2,6 +2,8 @@ import Header from './components/Header';
 import styled from 'styled-components';
 import Pesquisa from './components/Pesquisa';
 import UltimosLancamentos from './components/UltimosLancamentos';
+import MaisVendidos from './components/MaisVendidos';
+import Footer from './components/Footer';
 
 const AppContainer = styled.div`
     width: 100vw;
@@ -16,6 +18,8 @@ function App() {
        <Header />
        <Pesquisa/>
        <UltimosLancamentos/>
+       <MaisVendidos />
+       <Footer />
     </AppContainer>
   );
 }
